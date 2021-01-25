@@ -1,0 +1,21 @@
+<div data-controller="order">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>
+          <%= @menu.name %>
+        </h1>
+        <p><%= @menu.description %></p>
+        <% @menu.groups.each do |group| %>
+          <h2><%= group.name %></h2>
+          <% group.products.each do |product| %>
+            <p>
+              <%= product.name %>
+              <strong><%= number_to_currency(product.price) %></strong>
+            </p>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
