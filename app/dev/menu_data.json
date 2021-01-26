@@ -1,0 +1,421 @@
+{
+  "id": 4,
+  "name": "Primm",
+  "description": "Dolor enim earum. Laborum et praesentium. Sequi quia ut.",
+  "data": {
+  },
+  "reference": null,
+  "active": true,
+  "created_at": "2020-05-04T22:11:31.756Z",
+  "updated_at": "2020-05-04T22:11:31.756Z",
+  "groups": [
+    {
+      "id": 13,
+      "name": "Tools",
+      "description": "Quis praesentium et esse.",
+      "order": null,
+      "data": {
+      },
+      "reference": null,
+      "active": true,
+      "created_at": "2020-05-04T22:11:31.765Z",
+      "updated_at": "2020-05-04T22:11:31.765Z",
+      "menu_id": 4,
+      "products": [
+        {
+          "id": 57,
+          "name": "Ricotta Stuffed Ravioli",
+          "description": "Voluptatem doloremque inventore. Quo aut recusandae. Ea omnis dignissimos.",
+          "order": null,
+          "price": 84.16,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:31.774Z",
+          "updated_at": "2020-05-04T22:11:31.774Z",
+          "menu_id": 4,
+          "group_id": 13
+        },
+        {
+          "id": 58,
+          "name": "French Fries with Sausages",
+          "description": "In molestias enim. Sed dolores est. Omnis eius alias.",
+          "order": null,
+          "price": 105.59,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:31.782Z",
+          "updated_at": "2020-05-04T22:11:31.782Z",
+          "menu_id": 4,
+          "group_id": 13
+        },
+        {
+          "id": 59,
+          "name": "Meatballs with Sauce",
+          "description": "Quia aut necessitatibus. Tenetur voluptatum illum. Incidunt quaerat et.",
+          "order": null,
+          "price": 117.31,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:31.789Z",
+          "updated_at": "2020-05-04T22:11:31.789Z",
+          "menu_id": 4,
+          "group_id": 13
+        },
+        {
+          "id": 60,
+          "name": "Bruschette with Tomato",
+          "description": "Iste temporibus fugit. Magnam quia corrupti. Hic autem distinctio.",
+          "order": null,
+          "price": 180.7,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:31.796Z",
+          "updated_at": "2020-05-04T22:11:31.796Z",
+          "menu_id": 4,
+          "group_id": 13
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Beauty, Electronics & Shoes",
+      "description": "Beatae enim magni impedit.",
+      "order": null,
+      "data": {
+      },
+      "reference": null,
+      "active": true,
+      "created_at": "2020-05-04T22:11:31.806Z",
+      "updated_at": "2020-05-04T22:11:31.806Z",
+      "menu_id": 4,
+      "products": [
+        {
+          "id": 61,
+          "name": "Pappardelle alla Bolognese",
+          "description": "Repellendus ea rerum. Blanditiis officiis soluta. Vel occaecati illum.",
+          "order": null,
+          "price": 15.25,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:31.814Z",
+          "updated_at": "2020-05-04T22:11:31.814Z",
+          "menu_id": 4,
+          "group_id": 14
+        },
+        {
+          "id": 62,
+          "name": "Philadelphia Maki",
+          "description": "Repellat harum et. Aut et molestiae. Ut praesentium beatae.",
+          "order": null,
+          "price": 86.99,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:31.822Z",
+          "updated_at": "2020-05-04T22:11:31.822Z",
+          "menu_id": 4,
+          "group_id": 14
+        },
+        {
+          "id": 63,
+          "name": "Caesar Salad",
+          "description": "Culpa aut repudiandae. Et quo rem. Magnam molestiae cupiditate.",
+          "order": null,
+          "price": 113.06,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:31.833Z",
+          "updated_at": "2020-05-04T22:11:31.833Z",
+          "menu_id": 4,
+          "group_id": 14
+        },
+        {
+          "id": 64,
+          "name": "Pork Sausage Roll",
+          "description": "Distinctio qui hic. Aspernatur tenetur nulla. Quae id quia.",
+          "order": null,
+          "price": 35.09,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:31.849Z",
+          "updated_at": "2020-05-04T22:11:31.849Z",
+          "menu_id": 4,
+          "group_id": 14
+        },
+        {
+          "id": 65,
+          "name": "Som Tam",
+          "description": "Neque error ratione. Iusto aut fugit. Sunt vel ex.",
+          "order": null,
+          "price": 189.41,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:31.865Z",
+          "updated_at": "2020-05-04T22:11:31.865Z",
+          "menu_id": 4,
+          "group_id": 14
+        },
+        {
+          "id": 66,
+          "name": "Souvlaki",
+          "description": "Iure nobis voluptates. Quia voluptatem non. Cum laborum alias.",
+          "order": null,
+          "price": 93.69,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:31.880Z",
+          "updated_at": "2020-05-04T22:11:31.880Z",
+          "menu_id": 4,
+          "group_id": 14
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Home, Music & Automotive",
+      "description": "Assumenda exercitationem repellat pariatur.",
+      "order": null,
+      "data": {
+      },
+      "reference": null,
+      "active": true,
+      "created_at": "2020-05-04T22:11:31.895Z",
+      "updated_at": "2020-05-04T22:11:31.895Z",
+      "menu_id": 4,
+      "products": [
+        {
+          "id": 67,
+          "name": "Barbecue Ribs",
+          "description": "Quisquam velit occaecati. Minima sequi sunt. Ut nostrum dolore.",
+          "order": null,
+          "price": 118.6,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:31.906Z",
+          "updated_at": "2020-05-04T22:11:31.906Z",
+          "menu_id": 4,
+          "group_id": 15
+        },
+        {
+          "id": 68,
+          "name": "Souvlaki",
+          "description": "Et omnis eveniet. Expedita architecto quae. Et dolor minima.",
+          "order": null,
+          "price": 16.22,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:31.922Z",
+          "updated_at": "2020-05-04T22:11:31.922Z",
+          "menu_id": 4,
+          "group_id": 15
+        },
+        {
+          "id": 69,
+          "name": "Scotch Eggs",
+          "description": "Quod inventore enim. In et sunt. Consequuntur rerum sunt.",
+          "order": null,
+          "price": 127.32,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:31.938Z",
+          "updated_at": "2020-05-04T22:11:31.938Z",
+          "menu_id": 4,
+          "group_id": 15
+        },
+        {
+          "id": 70,
+          "name": "Salmon Nigiri",
+          "description": "Nostrum ipsum corrupti. Quas sint maxime. Dolores totam aut.",
+          "order": null,
+          "price": 47.03,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:31.953Z",
+          "updated_at": "2020-05-04T22:11:31.953Z",
+          "menu_id": 4,
+          "group_id": 15
+        },
+        {
+          "id": 71,
+          "name": "Chicken Milanese",
+          "description": "Autem error velit. Mollitia cumque animi. Et sit doloribus.",
+          "order": null,
+          "price": 15.3,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:31.963Z",
+          "updated_at": "2020-05-04T22:11:31.963Z",
+          "menu_id": 4,
+          "group_id": 15
+        },
+        {
+          "id": 72,
+          "name": "Pork Sausage Roll",
+          "description": "Porro velit dignissimos. Ratione nemo qui. Nesciunt rerum eos.",
+          "order": null,
+          "price": 97.34,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:31.973Z",
+          "updated_at": "2020-05-04T22:11:31.973Z",
+          "menu_id": 4,
+          "group_id": 15
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Electronics & Clothing",
+      "description": "Mollitia qui deleniti nobis.",
+      "order": null,
+      "data": {
+      },
+      "reference": null,
+      "active": true,
+      "created_at": "2020-05-04T22:11:31.989Z",
+      "updated_at": "2020-05-04T22:11:31.989Z",
+      "menu_id": 4,
+      "products": [
+        {
+          "id": 73,
+          "name": "Barbecue Ribs",
+          "description": "Enim magnam cum. Aut sit perspiciatis. Pariatur consequatur velit.",
+          "order": null,
+          "price": 95.38,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:32.005Z",
+          "updated_at": "2020-05-04T22:11:32.005Z",
+          "menu_id": 4,
+          "group_id": 16
+        },
+        {
+          "id": 74,
+          "name": "Poutine",
+          "description": "Sit sunt est. Tenetur vitae voluptatibus. Doloremque quis illo.",
+          "order": null,
+          "price": 192.28,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:32.015Z",
+          "updated_at": "2020-05-04T22:11:32.015Z",
+          "menu_id": 4,
+          "group_id": 16
+        },
+        {
+          "id": 75,
+          "name": "Cheeseburger",
+          "description": "Sint non quia. Et non distinctio. Deserunt adipisci voluptas.",
+          "order": null,
+          "price": 90.08,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:32.028Z",
+          "updated_at": "2020-05-04T22:11:32.028Z",
+          "menu_id": 4,
+          "group_id": 16
+        },
+        {
+          "id": 76,
+          "name": "Vegetable Soup",
+          "description": "Dolorum praesentium est. Porro quae nulla. Eligendi est incidunt.",
+          "order": null,
+          "price": 133.84,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:32.036Z",
+          "updated_at": "2020-05-04T22:11:32.036Z",
+          "menu_id": 4,
+          "group_id": 16
+        },
+        {
+          "id": 77,
+          "name": "Chilli con Carne",
+          "description": "Ex iste temporibus. Nisi dolores et. Neque dolorum sint.",
+          "order": null,
+          "price": 191.93,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:32.052Z",
+          "updated_at": "2020-05-04T22:11:32.052Z",
+          "menu_id": 4,
+          "group_id": 16
+        },
+        {
+          "id": 78,
+          "name": "Barbecue Ribs",
+          "description": "Error reiciendis tempora. Facilis sunt quia. Laborum dolores adipisci.",
+          "order": null,
+          "price": 142.71,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:32.067Z",
+          "updated_at": "2020-05-04T22:11:32.067Z",
+          "menu_id": 4,
+          "group_id": 16
+        },
+        {
+          "id": 79,
+          "name": "Pasta and Beans",
+          "description": "Deserunt ab vel. Dolorum rerum nobis. Iste voluptatibus dolorum.",
+          "order": null,
+          "price": 158.94,
+          "data": {
+          },
+          "reference": null,
+          "active": true,
+          "created_at": "2020-05-04T22:11:32.078Z",
+          "updated_at": "2020-05-04T22:11:32.078Z",
+          "menu_id": 4,
+          "group_id": 16
+        }
+      ]
+    }
+  ],
+  "products": [
+
+  ]
+}

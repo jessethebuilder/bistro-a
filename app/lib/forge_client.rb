@@ -6,13 +6,16 @@ class ForgeClient
   end
 
   def get_menu(menu_id)
-    response = RestClient::Request.execute(
-      method: :get,
-      url: "https://the-forge-web.herokuapp.com/menus/#{menu_id}?deep=true",
-      headers: headers
-    )
+    # response = RestClient::Request.execute(
+    #   method: :get,
+    #   url: "https://the-forge-web.herokuapp.com/menus/#{menu_id}?deep=true",
+    #   headers: headers
+    # )
+    # JSON.parse(response.body, object_class: OpenStruct)
 
-    JSON.parse(response.body, object_class: OpenStruct)
+    response = File.read("#{Rails.root}/app/dev/menu_data.json")
+    JSON.parse(response, object_class: OpenStruct)
+
   end
 
   def headers
