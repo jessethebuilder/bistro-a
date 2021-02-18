@@ -1,7 +1,10 @@
-<div data-controller="order">
+<div data-controller="menu">
   <div class="container">
     <div class="row">
-      <div class="col">
+      <div class="col-sm-6"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
         <h1>
           <%= @menu.name %>
         </h1>
@@ -9,13 +12,80 @@
         <% @menu.groups.each do |group| %>
           <h2><%= group.name %></h2>
           <% group.products.each do |product| %>
-            <p>
-              <%= product.name %>
-              <strong><%= number_to_currency(product.price) %></strong>
-            </p>
+            <div name="product">
+              <p>
+                <%= product.name %>
+                <strong><%= number_to_currency(product.price) %></strong>
+                <%= content_tag :button,
+                                '+',
+                                class: 'add_to_order',
+                                data: {action: 'click->menu#add'}
+                %>
+              </p>
+
+              <script type="text/template">
+                <%= content_tag :tr,
+                                name: 'product',
+                                data: {
+                                  id: product.id,
+                                  price: product.price,
+                                  name: product.name
+                                } do %>
+                  <td>
+                    <%= product.name %>
+                  </td>
+                  <td>
+                    <%= number_to_currency(product.price) %>
+                  </td>
+                  <td>
+                    <button data-action="click->menu#remove">-</button>
+                <% end %>
+              </script>
+            </div>
           <% end %>
         <% end %>
       </div>
-    </div>
+      <div class="col-sm-6">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Price</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody data-menu-target="list">
+            <tr class="sub_total">
+              <td>SubTotal</td>
+              <td>
+                $ <span data-menu-target="subTotal"></span>
+              </td>
+              <td></td>
+            </tr>
+            <tr class="tax">
+              <td>Tax</td>
+              <td>
+                $ <span data-menu-target="tax"></span>
+              </td>
+              <td></td>
+            </tr>
+            <tr class="tip">
+              <td>Tip</td>
+              <td>
+                $ <span data-menu-target="tip"></span>
+              </td>
+              <td></td>
+            </tr>
+            <tr class="total">
+              <td>Total</td>
+              <td>
+                $ <span data-menu-target="total"></span>
+              </td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div><
   </div>
 </div>
